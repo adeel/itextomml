@@ -5121,7 +5121,7 @@ YY_RULE_SETUP
 case 729:
 YY_RULE_SETUP
 #line 963 "itex2MML.l"
-{return UNKNOWNCHAR;}
+{yylval=itex2MML_copy_string(itex2MML_yytext); return MI;}
 	YY_BREAK
 
 case 730:
